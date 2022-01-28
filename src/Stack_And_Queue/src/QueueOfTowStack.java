@@ -53,6 +53,7 @@ public class QueueOfTowStack {
         }
         stackPop.peek();
         return stackPop.pop();
+
     }
 
 
