@@ -29,6 +29,7 @@ public class CatDogQueue {
         }
     }
 
+    //不管猫狗，按插入顺序弹出。
     public Pet pollAll() {
         if (!this.CatQ.isEmpty() && !this.DogQ.isEmpty()) {
             if (this.DogQ.peek().getCount() > this.CatQ.peek().getCount()) {
